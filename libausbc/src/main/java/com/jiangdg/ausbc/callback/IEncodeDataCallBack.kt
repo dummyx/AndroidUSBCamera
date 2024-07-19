@@ -25,6 +25,7 @@ interface IEncodeDataCallBack {
         AAC,       // aac with ADTS
         H264_KEY,  // H.264, key frame
         H264_SPS,  // H.264, sps & pps
-        H264       // H.264 not key frame
+        H264,       // H.264 not key frame
+        AV1
     }
 }
